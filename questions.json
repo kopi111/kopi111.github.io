@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question": "How are you?",
+      "answers": [
+        {"answer": "Great!"},
+        {"answer": "Good"},
+        {"answer": "Not so good"},
+        {"answer": "Terrible"}
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the capital of France?",
+      "answers": [
+        {"answer": "Madrid"},
+        {"answer": "Paris"},
+        {"answer": "Berlin"},
+        {"answer": "Rome"}
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "answers": [
+        {"answer": "Saturn"},
+        {"answer": "Jupiter"},
+        {"answer": "Mars"},
+        {"answer": "Venus"}
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the highest mountain in the world?",
+      "answers": [
+        {"answer": "Mount Kilimanjaro"},
+        {"answer": "Mount Everest"},
+        {"answer": "Mount Fuji"},
+        {"answer": "Mount Whitney"}
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the largest ocean in the world?",
+      "answers": [
+        {"answer": "Atlantic Ocean"},
+        {"answer": "Pacific Ocean"},
+        {"answer": "Indian Ocean"},
+        {"answer": "Arctic Ocean"}
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "answers": [
+        {"answer": "Ag"},
+        {"answer": "Au"},
+        {"answer": "Fe"},
+        {"answer": "Cu"}
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the largest organ in the human body?",
+      "answers": [
+        {"answer": "Heart"},
+        {"answer": "Lungs"},
+        {"answer": "Liver"},
+        {"answer": "Skin"}
+      ],
+      "correct_answer": 4
+    },
+    {
+      "question": "What is the smallest country in the world?",
+      "answers": [
+        {"answer": "Vatican City"},
+        {"answer": "Monaco"},
+        {"answer": "Nauru"},
+        {"answer": "Tuvalu"}
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "answers": [
+        {"answer": "Canberra"},
+        {"answer": "Sydney"},
+        {"answer": "Melbourne"},
+        {"answer": "Brisbane"}
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the largest country in the world?",
+      "answers": [
+        {"answer": "Russia"},
+        {"answer": "Canada"},
+        {"answer": "China"},
+        {"answer": "USA"}
+      ],
+      "correct_answer": 1
+    }
+  ]
+}

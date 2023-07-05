@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #333333;
+            text-align: left;
+            transition: background-color 0.3s, color 0.3s;
+            line-height: 2;
+        }
+        
+        .mode-button {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333333;
+            cursor: pointer;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+        
+        .mode-button:hover {
+            background-color: #eeeeee;
+        }
+        
+        .dark-mode {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        
+        .text-container {
+            font-size: 20px;
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+    <button class="mode-button" onclick="toggleMode()">Dark Mode</button>
+    <div class="text-container">
+        <p>On a date and time, you were assigned to fulfill Station Guard Duty at the Hamond Barracks Guardroom. At that particular moment, two individuals entered the reception area and provided their biographical information. One of the men reported an incident in which, while he was walking along a road, two other men approached him and demanded, "Give me everything in your pocket now." The assailants proceeded to search him and confiscated several items, including a Glock pistol with 35 rounds of 9mm ammunition, an iPhone 10, and a car key. Subsequently, one of the suspects inquired about the location of his car, to which he gestured towards a black vehicle situated across the road. Both men promptly fled the scene in the aforementioned vehicle. A male bystander who observed the incident from across the road kindly offered assistance to the victim, escorting him to the police station. Upon receiving the report, you immediately dispatched a radio message to alert the necessary personnel. Approximately twenty minutes later, W/Constables Green and Whyte arrived at the guardroom accompanied by an individual whom the victim positively identified as one of the assailants. Following this development, you proceeded to inquire with W/Constable Green about the whereabouts of the second suspect. She disclosed that during their encounter, the second suspect had initiated gunfire, posing a significant threat to their lives. In self-defense, they responded with fire. Unfortunately, this exchange resulted in the second suspect sustaining critical injuries, necessitating urgent transportation to KPH (Kingston Public Hospital), where Dr. McKenzie subsequently pronounced him deceased. Regrettably, the stolen vehicle remains unrecovered.</p>
+        <p>Please create an investigation with the appropriate cards: 30 Marks</p>
+        <p>Generate a CR10 form and link it to both the investigation and the victim: 10 Marks</p>
+        <p>Place a warning marker on the stolen vehicle: 10 Marks</p>
+        <p>Add an enquiry log detailing your visit to KPH to confirm the death of the suspect: 10 Marks</p>
+        <p>Upload a witness statement and link it solely to the witness, ensuring it is not attached to the investigation: 10 Marks</p>
+        <p>Upload a photograph of the stolen motor vehicle, linking it exclusively to the investigation and the stolen motor vehicle object: 10 Marks</p>
+        <p>Upload a police statement and create three versions: 10 Marks</p>
+        <p>Send a message to the user with the investigation attached. In the body of the message, list all flags and searches in connection and state something about them. The subject line should display your rank with your first initial and last name, for example, "W/Con D. Brown": 10 Marks</p>
+    </div>
+    
+    <script>
+        function toggleMode() {
+            var body = document.getElementsByTagName("body")[0];
+            body.classList.toggle("dark-mode");
+            
+            var button = document.getElementsByClassName("mode-button")[0];
+            if (body.classList.contains("dark-mode")) {
+                button.innerHTML = "Light Mode";
+            } else {
+                button.innerHTML = "Dark Mode";
+            }
+        }
+    </script>
+</body>
+</html>

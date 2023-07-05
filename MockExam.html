@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #333333;
+            text-align: left;
+            transition: background-color 0.3s, color 0.3s;
+            line-height: 2;
+        }
+        
+        .mode-button {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333333;
+            cursor: pointer;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+        
+        .mode-button:hover {
+            background-color: #eeeeee;
+        }
+        
+        .dark-mode {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        
+        .text-container {
+            font-size: 20px;
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+    <button class="mode-button" onclick="toggleMode()">Dark Mode</button>
+    <div class="text-container">
+        <p>A lady attended the station and reported that between the hours of 6:00 pm to 7:00 pm, she was walking down a road when she heard footsteps behind her. When she turned around, she saw two men. One of the men pointed a gun at her and demanded her phone. The woman handed over her phone, but as she did, her car keys fell to the ground.
+
+            The second man, who was without a gun, picked up the keys and asked her where her car was located. She pointed to a vehicle across the road. The man without the gun then made an inappropriate comment about her appearance in the nighttime. He proceeded to grab her and forcibly pushed her into a corner, where he engaged in non-consensual sexual activity with her.
+            
+            During this disturbing incident, the other man kept a lookout. Eventually, both suspects fled the scene using the woman's car.<p>
+              
+        
+                <p>Please create an investigation with the appropriate cards.</p>
+                <p>Generate a CR10 form and link it to both the investigation and the victim.</p>
+                <p>Place a warning marker on the stolen vehicle.</p>
+                <p>Upload a witness statement and link it solely to the witness, ensuring it is not attached to the investigation.</p>
+                <p>Upload a photograph of the stolen motor vehicle, linking it exclusively to the investigation and the stolen motor vehicle object.</p>
+                <p>Upload a photograph of the stolen phone, to the phone.</p>
+                <p>Upload a police statement and create three versions.</p>
+                <p>Send a message to the user with the investigation attached. In the body of the message, please help with this investigation.</p>
+                <p>Both suspects were killed during an operation, update the investigation.</p>
+                <p>Add an enquiry log detailing your visit to KPH to confirm the death of the suspect.</p>
+    </div>
+    
+    <script>
+        function toggleMode() {
+            var body = document.getElementsByTagName("body")[0];
+            body.classList.toggle("dark-mode");
+            
+            var button = document.getElementsByClassName("mode-button")[0];
+            if (body.classList.contains("dark-mode")) {
+                button.innerHTML = "Light Mode";
+            } else {
+                button.innerHTML = "Dark Mode";
+            }
+        }
+    </script>
+</body>
+</html>
